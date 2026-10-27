@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfólio de Wildy Matheus, estudante de Desenvolvimento de Sistemas."
+    >
+
+    <title>Wildy Matheus — Desenvolvedor em formação</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="navegacao container" aria-label="Menu principal">
+            <a class="logo" href="#inicio" aria-label="Wildy Matheus, início">
+                WM<span>.</span>
+            </a>
+
+            <button
+                class="botao-menu"
+                id="botao-menu"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="lista-menu"
+            >
+                ☰
+            </button>
+
+            <ul class="lista-menu" id="lista-menu">
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button
+                class="botao-tema"
+                id="botao-tema"
+                type="button"
+                aria-label="Ativar tema claro"
+            >
+                ☀
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- APRESENTAÇÃO PRINCIPAL -->
+        <section class="hero container" id="inicio">
+            <div class="hero-texto">
+                <p class="etiqueta" id="saudacao">
+                    PORTFÓLIO DE DESENVOLVIMENTO
+                </p>
+
+                <h1>
+                    DESENVOLVEDOR
+                    <span>WEB.</span>
+                </h1>
+
+                <p class="hero-descricao">
+                    Transformando ideias em experiências digitais.
+                    Estudo programação e desenvolvimento de sistemas
+                    para criar soluções úteis, funcionais e bem construídas.
+                </p>
+
+                <div class="hero-acoes">
+                    <a class="botao" href="#projetos">
+                        VER MEUS PROJETOS <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a class="botao" href="#sobre">
+                        SOBRE MIM <span aria-hidden="true">↗</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="hero-foto">
+                <div class="foto-circulo" aria-hidden="true"></div>
+
+                <div class="foto-moldura">
+                    <img
+                        src="img/FOTO.jpeg"
+                        alt="Foto de perfil de Wildy Matheus">
+
+                    <div class="foto-placeholder" hidden>
+                        <span>WM</span>
+                        <p>COLOCAR FOTO</p>
+                        <small>Adicione img/FOTO.jpeg</small>
+                    </div>
+                </div>
+
+                <div class="hero-selo">
+                    <span>DESENVOLVEDOR EM FORMAÇÃO <br> Wildy Matheus Severiano Lima</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAIXA DE INFORMAÇÕES -->
+        <section class="estatisticas container" aria-label="Resumo do portfólio">
+            <article class="estatistica">
+                <span class="estatistica-icone" aria-hidden="true">✳</span>
+                <strong>03</strong>
+                <p>PROJETOS APRESENTADOS</p>
+            </article>
+
+            <article class="estatistica">
+                <span class="estatistica-icone" aria-hidden="true">⌘</span>
+                <strong>06</strong>
+                <p>TECNOLOGIAS EM ESTUDO</p>
+            </article>
+
+            <article class="estatistica">
+                <span class="estatistica-icone" aria-hidden="true">◇</span>
+                <strong>100%</strong>
+                <p>VONTADE DE EVOLUIR</p>
+            </article>
+
+            <article class="estatistica">
+                <span class="estatistica-icone" aria-hidden="true">↗</span>
+                <strong>∞</strong>
+                <p>IDEIAS PARA DESENVOLVER</p>
+            </article>
+        </section>
+
+        <!-- PROJETOS -->
+        
+        <section class="secao container" id="projetos">
+            <div class="cabecalho-secao">
+                <div>
+                    <p class="etiqueta">TRABALHOS SELECIONADOS</p>
+                    <h2 class="titulo-secao">Projetos em destaque<span>.</span></h2>
+                </div>
+
+                <a
+                    class="link-simples"
+                    href="https://github.com/maatheusZK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    VER GITHUB ↗
+                </a>
+            </div>
+
+            <div class="grade-projetos">
+
+                <!-- PROJETO 1 -->
+                <article class="projeto-card">
+                    <a
+                        class="projeto-imagem-link"
+                        href="https://maatheuszk.github.io/House-Of-Coffee/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visitar o site da cafeteria"
+                    >
+                        <img
+                            class="projeto-imagem"
+                            src="img/cafeteria.png"
+                            alt="Captura de tela do site da cafeteria"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="projeto-info">
+                        <div>
+                            <p class="projeto-categoria">01 / DESENVOLVIMENTO WEB</p>
+                            <h3>Site de cafeteria</h3>
+                        </div>
+                        <span class="projeto-seta" aria-hidden="true">↗</span>
+                    </div>
+
+                    <p class="projeto-descricao">
+                        Uma experiência digital para apresentar uma cafeteria
+                        e seus produtos.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <!-- PROJETO 2 -->
+                <article class="projeto-card">
+                    <a
+                        class="projeto-imagem-link"
+                        href="https://projetofalaai.pythonanywhere.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visitar o sistema de feedback anônimo"
+                    >
+                        <img
+                            class="projeto-imagem"
+                            src="img/falaai.png"
+                            alt="Captura de tela do sistema de feedback anônimo"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="projeto-info">
+                        <div>
+                            <p class="projeto-categoria">02 / SISTEMA WEB</p>
+                            <h3>Feedback anônimo</h3>
+                        </div>
+                        <span class="projeto-seta" aria-hidden="true">↗</span>
+                    </div>
+
+                    <p class="projeto-descricao">
+                        Sistema para registrar opiniões e sugestões,
+                        facilitando a comunicação.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>JSON</span>
+                    </div>
+                </article>
+
+                <!-- PROJETO 3 -->
+                <article class="projeto-card">
+                    <a
+                        class="projeto-imagem-link"
+                        href="https://maatheuszk.github.io/Bola-Na-Rede/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visitar o Bola na Rede, meu site de jornalismo futebolístico"
+                    >
+                        <img
+                            class="projeto-imagem"
+                            src="img/bola na rede.png"
+                            alt="Captura de tela do Bola na Rede"
+                            loading="lazy"
+                        >
+                    </a>
+
+                    <div class="projeto-info">
+                        <div>
+                            <p class="projeto-categoria">03 / Site jornalistico</p>
+                            <h3>Bola na Rede</h3>
+                        </div>
+                        <span class="projeto-seta" aria-hidden="true">↗</span>
+                    </div>
+
+                    <p class="projeto-descricao">
+                        Meu espaço profissional para apresentar projetos,
+                        habilidades e evolução.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- HABILIDADES E TECNOLOGIAS -->
+        <section class="secao secao-dividida" id="habilidades">
+            <div class="container grade-informacoes">
+                <div class="capacidades">
+                    <p class="etiqueta">O QUE ESTOU DESENVOLVENDO</p>
+                    <h2 class="titulo-secao">Habilidades<span>.</span></h2>
+
+                    <div class="grade-capacidades">
+                        <article class="capacidade">
+                            <span class="capacidade-icone">&lt;/&gt;</span>
+                            <div>
+                                <h3>DESENVOLVIMENTO WEB</h3>
+                                <p>Criação e estruturação de páginas e interfaces.</p>
+                            </div>
+                        </article>
+
+                        <article class="capacidade">
+                            <span class="capacidade-icone">{ }</span>
+                            <div>
+                                <h3>LÓGICA DE PROGRAMAÇÃO</h3>
+                                <p>Construção de soluções para resolver problemas.</p>
+                            </div>
+                        </article>
+
+                        <article class="capacidade">
+                            <span class="capacidade-icone">▤</span>
+                            <div>
+                                <h3>BANCO DE DADOS</h3>
+                                <p>Consultas e organização de informações com SQL.</p>
+                            </div>
+                        </article>
+
+                        <article class="capacidade">
+                            <span class="capacidade-icone">◇</span>
+                            <div>
+                                <h3>INTERFACES RESPONSIVAS</h3>
+                                <p>Layouts adaptados a diferentes tamanhos de tela.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tecnologias">
+                    <p class="etiqueta">FERRAMENTAS E TECNOLOGIAS</p>
+                    <h2 class="titulo-secao">Meu conjunto de ferramentas<span>.</span></h2>
+
+                    <div class="grade-tecnologias">
+                        <div class="tecnologia"><b>5</b><span>HTML</span></div>
+                        <div class="tecnologia"><b>#</b><span>CSS</span></div>
+                        <div class="tecnologia"><b>JS</b><span>JavaScript</span></div>
+                        <div class="tecnologia"><b>Py</b><span>Python</span></div>
+                        <div class="tecnologia"><b>DB</b><span>SQL</span></div>
+                        <div class="tecnologia"><b>{ }</b><span>JSON</span></div>
+                    </div>
+
+                    <div class="nota-tecnologias">
+                        <span class="status-ponto"></span>
+                        APRENDENDO, PRATICANDO E EVOLUINDO
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        
+        <section class="sobre secao" id="sobre">
+            <div class="sobre-conteudo">
+                <p class="etiqueta">SOBRE MIM</p>
+
+                <h2>
+                    Curiosidade que vira <span>criação.</span>
+                </h2>
+
+                <div class="sobre-texto">
+                    <p>
+                        Sou estudante de Desenvolvimento de Sistemas e vejo a tecnologia como uma forma de transformar ideias em soluções reais.
+                    </p>
+
+                    <p>
+                        Gosto de entender como as coisas funcionam, investigar problemas e encontrar maneiras de resolvê-los. Para mim, desenvolver vai além de escrever código: envolve raciocínio lógico, criatividade, atenção aos detalhes e disposição para aprender.
+                    </p>
+
+                    <p>
+                        Estou construindo minha trajetória na área por meio de estudos e projetos práticos, buscando evoluir continuamente e me preparar para os desafios do mercado de tecnologia.
+                    </p>
+                </div>
+
+                <div class="sobre-direcao">
+                    <span class="sobre-direcao-icone" aria-hidden="true">
+                        ↗
+                    </span>
+
+                    <div>
+                        <h3>Minha direção</h3>
+                        <p>
+                            Crescer como profissional, colaborar com boas equipes e desenvolver soluções que façam a diferença.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROCESSO -->
+        <section class="secao secao-dividida">
+            <div class="container">
+                <p class="etiqueta">DA IDEIA À IMPLEMENTAÇÃO</p>
+                <h2 class="titulo-secao">Meu processo de desenvolvimento<span>.</span></h2>
+
+                <div class="grade-processo">
+                    <article class="etapa">
+                        <span>01</span>
+                        <div class="etapa-icone">⌕</div>
+                        <h3>ENTENDER</h3>
+                        <p>Compreender o problema e o objetivo do projeto.</p>
+                    </article>
+
+                    <article class="etapa">
+                        <span>02</span>
+                        <div class="etapa-icone">◎</div>
+                        <h3>PLANEJAR</h3>
+                        <p>Organizar as ideias e definir uma solução.</p>
+                    </article>
+
+                    <article class="etapa">
+                        <span>03</span>
+                        <div class="etapa-icone">&lt;/&gt;</div>
+                        <h3>DESENVOLVER</h3>
+                        <p>Transformar o planejamento em código.</p>
+                    </article>
+
+                    <article class="etapa">
+                        <span>04</span>
+                        <div class="etapa-icone">✓</div>
+                        <h3>TESTAR</h3>
+                        <p>Verificar o funcionamento e corrigir problemas.</p>
+                    </article>
+
+                    <article class="etapa">
+                        <span>05</span>
+                        <div class="etapa-icone">↗</div>
+                        <h3>EVOLUIR</h3>
+                        <p>Aprender com o resultado e aprimorar o projeto.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="secao container" id="contato">
+            
+            <div class="contato-banner">
+                <div class="contato-chamada">
+                    <p class="etiqueta">VAMOS CONVERSAR</p>
+                    <h2>VAMOS CRIAR<br>ALGO INCRÍVEL<span>.</span></h2>
+                </div>
+            </div>
+
+            <div class="contato-texto">
+                <p>
+                Estou construindo minha carreira em tecnologia e aberto a conversas sobre desenvolvimento, projetos e oportunidades.
+                </p>
+            </div>
+
+            <div class="contato-item">
+                <span class="contato-icone" aria-hidden="true">⌘</span>
+                <div>
+                    <p>GITHUB</p>
+                    <a
+                        href="https://github.com/maatheusZK"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        github.com/maatheusZK ↗
+                    </a>
+                </div>
+            </div>            
+
+            <div class="contato-item">
+                <span class="contato-icone" aria-hidden="true">@</span>
+                <div>
+                    <p>E-MAIL</p>
+                    <a href="mailto:maatheusseveriano@gmail.com">maatheusseveriano@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contato-item">
+                <span class="contato-icone" aria-hidden="true">⌖</span>
+                <div>
+                    <p>LOCALIZAÇÃO</p>
+                    <span>Natal, Rio Grande do Norte, Brasil</span>
+                </div>
+            </div>
+
+            <div class="contato-item">
+                <span class="contato-icone" aria-hidden="true">☎</span>
+                <div>
+                    <p>TELEFONE</p>
+                    <a href="tel:+5584981514411">+55 (84) 98151-4411</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <p>© <span id="ano-atual"></span> Wildy Matheus Severiano Lima</p>
+            <a href="#inicio">VOLTAR AO TOPO ↑</a>
+            <P>SENAC RN</P>
+        </div>
+    </footer>
+</body>
+</html>
